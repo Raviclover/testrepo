@@ -1,30 +1,15 @@
 {
   "name": "test_bower",
-  "description": "Physics-like animations for pretty particles",
+  "version": "0.0.1",
+  "description": "valid forms",
   "main": [
-    "testBower"
+    "testBower.js-"
   ],
   "dependencies": {
     "get-size": "~1.2.2",
     "eventEmitter": "~4.2.11"
   },
-  "devDependencies": {
-    "qunit": "~1.16.0"
-  },
-  "moduleType": [
-    "amd",
-    "globals",
-    "node"
-  ],
-  "keywords": [
-    "motion",
-    "physics",
-    "particles"
-  ],
-  "authors": [
-    "Betty Beta <bbeta@example.com>"
-  ],
-  "license": "MIT",
+  
   "ignore": [
     "**/.*",
     "node_modules",
@@ -32,5 +17,5 @@
     "test",
     "tests"
   ],
-  "private": true
+  "private": false
 }
