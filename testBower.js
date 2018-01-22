@@ -1,4 +1,4 @@
-angular.module('WSI.validation-directives', ['pascalprecht.translate'])
+angular.module('WSI.validation-directives', [])
 .directive('dsField', function ($compile) {
     return {
         scope: {
